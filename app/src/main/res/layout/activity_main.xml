@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Introduce numero para enviar ubicación"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_marginTop="30sp"
+            android:layout_width="600px"
+            android:layout_height="600px"
+            android:layout_gravity="center"
+            android:src="@drawable/ubi"></ImageView>
+
+        <EditText
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ettelefono"
+            android:hint="Número"
+            android:textSize="25sp"
+            android:inputType="phone"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"/>
+
+        <Button
+            android:id="@+id/btnguardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ettelefono"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="60sp"
+            android:backgroundTint="#009688"
+            android:text="Guardar"
+            android:textSize="25sp" />
+
+</LinearLayout>
